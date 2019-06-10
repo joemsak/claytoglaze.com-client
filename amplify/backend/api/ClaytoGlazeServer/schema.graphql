@@ -1,0 +1,18 @@
+type Album @model {
+  id: ID!
+  name: String!
+  photos: [Photo] @connection(name: "AlbumPhotos")
+}
+
+type Photo @model {
+  id: ID!
+  url: String
+  urls: PhotoUrls!
+  album: Album @connection(name: "AlbumPhotos")
+}
+
+type PhotoUrls {
+  RES_1: String!
+  RES_2: String!
+  RES_3: String!
+}

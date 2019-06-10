@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "claytoglazecomclient-dev-20190609221829-authRole",
+            "UnauthRoleArn": "arn:aws:iam::507272121356:role/claytoglazecomclient-dev-20190609221829-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::507272121356:role/claytoglazecomclient-dev-20190609221829-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "claytoglazecomclient-dev-20190609221829-deployment",
+            "UnauthRoleName": "claytoglazecomclient-dev-20190609221829-unauthRole",
+            "StackName": "claytoglazecomclient-dev-20190609221829",
+            "StackId": "arn:aws:cloudformation:us-east-1:507272121356:stack/claytoglazecomclient-dev-20190609221829/6baeb900-8b2e-11e9-a884-0e92b042adf6"
+        }
+    }
+}
